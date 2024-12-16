@@ -1,5 +1,5 @@
 import React from 'react';
-function CellsContainer({ numbers }) {
+function CellsContainer({ numbers,onClick }) {
     return ( 
       <div>
         {numbers.map((number, index) => (
