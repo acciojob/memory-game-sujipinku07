@@ -5,7 +5,8 @@ function LevelSelection({ onLevelChange }) {
   }
 
   return (
-    <div>
+    < div className="levels_container">
+    <h4>Select Level</h4>
       <input type="radio" id="easy" name="level" value="easy" onChange={handleChange} checked />
       <label htmlFor="easy">Easy</label>
       
