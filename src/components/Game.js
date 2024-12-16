@@ -55,9 +55,10 @@ function Game() {
 
   return (
     <div>
-      <h1>Memory Game</h1>
+      <h1>Welcome! Memory Game</h1>
       <LevelSelection onLevelChange={handleLevelChange} />
       <CellsContainer numbers={numbers} onClick={handleCellClick}/>
+    <button>Start Game</button>
     </div>
   );
 }
